@@ -26,6 +26,8 @@ class titan:
 		last_name = input("Do you remember {}'s last name?".format(self.name))
 		full_name = self.name+' '+last_name
 		return full_name
+
+	
 # calling the class as if we are calling a function
 # the titan objects have unique name and power value
 eren = titan('Eren', 'founder')
