@@ -13,5 +13,4 @@ class first_car:
 
     def __repr__(self):
         # return a PEP8
-        return ('''{self.__class__.__name__}: {self.make}, {self.model}, {self.year}'''
-		.format(self=self))
+        return (f'{self.__class__.__name__}: {self.make}, {self.model}, {self.year}')
